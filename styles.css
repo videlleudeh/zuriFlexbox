@@ -45,8 +45,9 @@ main {
 
 h1{
 	text-align: center;
-	margin: 40px;
-	padding: 40px;
+	margin-top:  100px;
+	margin-bottom: 30px;
+	padding: 10px;
 	color: black;
 }
 
