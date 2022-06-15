@@ -1,0 +1,88 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	justify-content: center;
+	background-color: #000020;
+	color: white;
+}
+
+.navbar {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	padding: 20px;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+   
+    
+}
+
+.navbar a {
+	text-decoration: none;
+	border: 2px black solid;
+	color: white;
+	padding: 10px;
+	transition: 0.3s;
+	background-color: inherit; 
+	border-radius: 20px;
+	font-family: 'Big Shoulders Display', cursive;
+}
+
+.navbar a:hover {
+	background-color: white;
+	color: #000020;
+}
+
+h1{
+	text-align: center;
+	margin-top: 100px;
+	padding: 10px;
+}
+
+main {
+	display: grid;
+	width: 80%;
+	height: 65%;
+	grid-template-areas: 
+	'a a a b b'
+	'c c d d d'
+	'c c e e e';
+	grid-gap: 10px;
+    margin: auto;
+	padding: 40px;
+}
+
+main div {
+	padding: 10px;
+}
+
+.grid-a {
+	background-color: #d83d00;
+	grid-area: a;
+}
+
+.grid-b {
+	background-color: #ffa700;
+	grid-area: b;
+}
+
+.grid-c {
+	background-color: #009b3c;
+	grid-area: c;
+}
+
+.grid-d {
+	background-color: #4b9ed8;
+	grid-area: d;
+}
+
+.grid-e {
+	background-color: #4b9ed8;
+	grid-area: e;
+}
+

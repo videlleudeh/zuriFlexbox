@@ -1,0 +1,199 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: hsl(48, 58%, 84%);
+}
+
+.navbar {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	padding: 20px;
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+    font-family: 'Big Shoulders Display', cursive;
+    
+}
+
+.navbar a {
+	text-decoration: none;
+	color: black;
+	border: 2px black solid;
+	padding: 10px;
+	transition: 0.3s;
+	background-color: inherit; 
+	border-radius: 20px;
+}
+
+.navbar a:hover {
+	background-color: white;
+	color: hsl(48, 58%, 84%);
+}
+
+main {
+	display: flex;
+	width: 60%;
+	height: auto;
+	margin: auto;
+	overflow: auto;
+}
+
+h1{
+	text-align: center;
+	margin: 40px;
+	padding: 40px;
+	color: black;
+}
+
+main div {
+	padding: 20px;
+	justify-content: center;
+	align-items: center;
+}
+
+.sedans {
+	background-color: hsl(31, 77%, 52%);
+	flex: 1;
+	flex-basis: 24.33%;
+}
+
+.suvs {
+	background-color: hsl(184, 100%, 22%);
+	flex: 1;
+	flex-basis: 24.33%;
+}
+
+.luxury {
+	background-color: hsl(179, 100%, 13%);
+	flex: 1;
+	flex-basis: 24.33%;
+}
+
+h2 {
+	font-family: 'Big Shoulders Display', cursive;
+	font-weight: 700px;
+	color: white;
+	padding: 5px 0;
+}
+
+p, button {
+	font-family: 'Lexend Deca', sans-serif;
+	font-weight: 400px;
+	color: white;
+}
+
+button {
+	border-radius: 20px;
+	width: 70%;
+	padding: 5px;
+	margin: 35px 0;
+	background-color: white;
+	border: none;
+	transition: 0.3s;
+}
+
+.sedans button {
+	color: hsl(31, 77%, 52%);
+}
+
+.suvs button {
+    color: hsl(184, 100%, 22%);
+}
+
+.luxury button {
+	color: hsl(179, 100%, 13%);
+}
+
+.sedans button:hover {
+    cursor: pointer;
+    background: hsl(31, 77%, 52%);
+    color: white;
+    border: white 1px solid;
+}
+
+.suvs button:hover {
+    cursor: pointer;
+    background: hsl(184, 100%, 22%);
+    color: white;
+    border: white 1px solid;
+}
+
+.luxury button:hover {
+    cursor: pointer;
+    background: hsl(179, 100%, 13%);
+    color: white;
+    border: white 1px solid;
+}
+
+/* Media Query */
+
+
+@media (max-width: 1440px) {
+	main {
+		width: 70%;
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1200px) {
+	main {
+		width: 70%;
+		font-size: 15px;
+	}
+}
+
+@media (max-width: 960px) {
+	main {
+		width: 80%;
+		font-size: 13px;
+	}
+}
+
+@media (max-width: 680px) {
+	main {
+		width: 90%;
+		font-size: 11px;
+	}
+}
+
+@media (max-width: 375px) {
+	main {
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
